@@ -16,7 +16,7 @@ MongoConnection.prototype.url = function(){
         case 'LOCAL':
             return 'mongodb://' + this.servidor + ':' + this.porta + '/' + this.banco;
         case 'REMOTO':
-            return 'mongodb+srv://rodrigo:rodrigo@awake-71owl.mongodb.net/test?retryWrites=true&w=majority';        
+            return 'mongodb+srv://joao:joao@awake-71owl.mongodb.net/test?retryWrites=true&w=majority';        
     }
 }
 
